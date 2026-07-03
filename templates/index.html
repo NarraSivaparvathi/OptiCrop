@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OptiCrop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="topnav">
+    <a class="active" href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/findyourcrop">FindYourCrop</a>
+</div>
+
+<div class="container">
+
+<h1>Opti Crop Agricultural Optimisation</h1>
+
+<p>
+The main purpose of the OptiCrop project is to develop an advanced software
+system that recommends the most suitable crop based on soil nutrients and
+environmental conditions using Machine Learning.
+</p>
+
+<img src="{{ url_for('static', filename='farm.jpg') }}" width="700">
+
+</div>
+
+</body>
+</html>
